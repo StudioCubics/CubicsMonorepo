@@ -1,7 +1,7 @@
 import { SignJWT } from "jose";
 import NextAuth from "next-auth";
-import adapterConfig from "./lib/next-auth/adapters.config";
-import providersConfig from "./lib/next-auth/providers.config";
+import adapterConfig from "./lib/authjs/adapters.config";
+import providersConfig from "./lib/authjs/providers.config";
 
 
 

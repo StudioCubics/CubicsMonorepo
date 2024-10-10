@@ -1,6 +1,6 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
-import supabaseAccessToken from "../next-auth/supabaseAccessToken";
+import supabaseAccessToken from "./supabaseAccessToken";
 
 export function createClient() {
   const cookieStore = cookies();
@@ -8,7 +8,7 @@ export function createClient() {
   console.log("supabaseAccessToken:", supabaseAccessToken);
   return createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
     {
       global: {
         headers: {
