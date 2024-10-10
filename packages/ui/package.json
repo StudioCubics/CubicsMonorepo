@@ -1,0 +1,32 @@
+{
+  "name": "@cubics/ui",
+  "version": "0.0.0",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./styles.css": "./dist/index.css"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "del /q .turbo && del /q dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cubics/eslint-config": "*",
+    "@cubics/tailwind-config": "*",
+    "@cubics/typescript-config": "*",
+    "@types/react": "^18.2.61",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}

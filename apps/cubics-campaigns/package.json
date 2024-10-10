@@ -1,0 +1,36 @@
+{
+  "name": "cubics-campaigns",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "clean": "del /q .turbo && del /q node_modules && del /q .next"
+  },
+  "dependencies": {
+    "@auth/supabase-adapter": "^1.7.0",
+    "@cubics/ui": "*",
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "jose": "^5.9.3",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.2.3",
+    "next-auth": "^5.0.0-beta.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cubics/eslint-config": "*",
+    "@cubics/typescript-config": "*",
+    "@next/eslint-plugin-next": "^14.2.3",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "supabase": "^1.204.3",
+    "typescript": "^5.3.3"
+  }
+}
