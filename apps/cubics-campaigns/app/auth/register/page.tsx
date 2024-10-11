@@ -1,21 +1,23 @@
 import { signIn } from "@/auth";
 import { register } from "@/lib/authjs/actions";
-import { redirect } from "next/navigation";
 
+async function handleRegistration(formData: FormData) {
+  "use server";
+  // console.log(Object.fromEntries(formData.entries()));
+  await register(formData).catch((error) =>
+    console.log("Registration Error: ", error.message)
+  );
+  const res = await signIn("credentials", {
+    email: formData.get("email"),
+    password: formData.get("password"),
+    redirectTo: "/dashboard",
+  });
+  // console.log("res", res);
+  // redirect("/auth/login");
+}
 export default function RegisterPage() {
   return (
-    <form
-      action={async (formData) => {
-        "use server";
-        await register(formData).catch((error) =>
-          console.log("Registration Error: ", error.message)
-        );
-        // await signIn("credentials", formData).catch((error) =>
-        //   console.log("Login Error: ", error)
-        // );
-        redirect("/auth/login");
-      }}
-    >
+    <form action={handleRegistration}>
       <label>
         Full Name
         <input name="name" type="text" />
@@ -28,7 +30,7 @@ export default function RegisterPage() {
         Password
         <input name="password" type="password" />
       </label>
-      <button>Register</button>
+      <button type="submit">Register</button>
     </form>
   );
 }

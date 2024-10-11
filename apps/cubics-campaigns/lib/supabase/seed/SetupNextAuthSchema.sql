@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS next_auth.accounts (
     session_state text,
     oauth_token_secret text,
     oauth_token text,
-    credential_keys text[],
+    credential_keys text [ ],
     "userId" uuid,
     CONSTRAINT accounts_pkey PRIMARY KEY (id),
     CONSTRAINT provider_unique UNIQUE (provider, "providerAccountId"),
@@ -90,6 +90,35 @@ CREATE TABLE IF NOT EXISTS next_auth.accounts (
 GRANT ALL ON TABLE next_auth.accounts TO postgres;
 
 GRANT ALL ON TABLE next_auth.accounts TO service_role;
+
+-- 
+-- Function to update users.emailVerified if provider is 'google'
+-- 
+CREATE
+OR REPLACE FUNCTION next_auth.update_email_verified_google() RETURNS TRIGGER AS $$ BEGIN
+    -- Check if the provider is 'google'
+    IF NEW .provider = 'google' THEN -- Update the emailVerified field with the current timestamp
+    UPDATE
+        next_auth.users
+    SET
+        "emailVerified" = NOW()
+    WHERE
+        id = NEW."userId";
+
+END IF;
+
+RETURN NEW;
+
+END;
+
+$$ LANGUAGE plpgsql;
+
+-- 
+-- Trigger to call the function on insert into next_auth.accounts
+-- 
+CREATE TRIGGER trigger_update_email_verified_google AFTER
+INSERT
+    ON next_auth.accounts FOR EACH ROW EXECUTE FUNCTION next_auth.update_email_verified_google();
 
 --
 -- Create verification_tokens table

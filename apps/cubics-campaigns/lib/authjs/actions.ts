@@ -9,8 +9,6 @@ export async function register(formData: FormData) {
   );
   if (error)
     throw new Error(JSON.stringify(error.errors.map((e) => e.message)));
-  console.log("success", success);
-  console.log("data", data);
 
   const userExists = await prisma.next_auth_users.findUnique({
     where: {
@@ -28,7 +26,10 @@ export async function register(formData: FormData) {
     },
   });
   if (!user) throw new Error("User could not be created");
-  const providerAccountId = v5(data.email, process.env.LOCAL_PROVIDER_NAMESPACE!);
+  const providerAccountId = v5(
+    data.email,
+    process.env.LOCAL_PROVIDER_NAMESPACE!
+  );
   const account = await prisma.accounts.create({
     data: {
       type: "local",
