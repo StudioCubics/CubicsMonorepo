@@ -76,6 +76,7 @@ CREATE TABLE IF NOT EXISTS next_auth.accounts (
     session_state text,
     oauth_token_secret text,
     oauth_token text,
+    credential_keys text[],
     "userId" uuid,
     CONSTRAINT accounts_pkey PRIMARY KEY (id),
     CONSTRAINT provider_unique UNIQUE (provider, "providerAccountId"),

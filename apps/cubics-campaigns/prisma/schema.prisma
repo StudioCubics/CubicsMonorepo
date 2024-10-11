@@ -24,6 +24,7 @@ model accounts {
   session_state      String?
   oauth_token_secret String?
   oauth_token        String?
+  credential_keys    String[]
   userId             String?          @db.Uuid
   users              next_auth_users? @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: NoAction)
 
