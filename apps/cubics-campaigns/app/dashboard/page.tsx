@@ -1,5 +1,5 @@
 import { auth } from "@/auth";
-import { IconButton } from "@studiocubics/ui";
+import { IconButton } from "@studiocubics/core";
 
 export default async function DashboardPage() {
   const session = await auth();

@@ -1,5 +1,5 @@
 {
   "extends": "@studiocubics/typescript-config/react-library.json",
-  "include": [".", "../core"],
+  "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

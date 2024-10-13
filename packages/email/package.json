@@ -1,20 +1,16 @@
 {
-  "name": "@studiocubics/ui",
-  "author": {
-    "name": "Studio Cubics",
-    "email": "studiocubics7@gmail.com",
-    "url": "https://studio-cubics.vercel.app"
-  },
+  "name": "@studiocubics/email",
   "version": "1.0.0",
-  "sideEffects": false,
+  "description": "Contains email templates created with react-email",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "author": "Studio Cubics",
+  "license": "ISC",
   "files": [
     "dist/"
   ],
   "exports": {
-    "./styles.css": "./dist/index.css",
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
@@ -26,25 +22,19 @@
       }
     }
   },
-  "license": "MIT",
   "scripts": {
     "build": "rollup --config",
+    "clean": "rmdir /s /q dist",
     "dev": "rollup --config --watch",
-    "type-check": "tsc --noEmit",
-    "lint": "eslint \"src/**/*.ts*\"",
-    "clean": "rmdir /s /q .turbo; rmdir /s /q dist"
-  },
-  "dependencies": {
-    "@studiocubics/core": "^1.0.0",
-    "@studiocubics/email": "^1.0.0",
-    "@studiocubics/icons": "^1.0.0"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@studiocubics/eslint-config": "*",
     "@studiocubics/typescript-config": "*",
     "@studiocubics/rollup-config": "*",
-    "@types/react": "^18.2.61",
-    "@svgr/cli": "^8.1.0",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
   }
 }

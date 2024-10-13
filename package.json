@@ -10,8 +10,8 @@
     "changeset": "changeset",
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "version-packages": "changeset version",
-    "release": "turbo build --filter=@studiocubics/ui && changeset publish"
+    "bump": "changeset version",
+    "release": "turbo build --filter=@studiocubics* && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

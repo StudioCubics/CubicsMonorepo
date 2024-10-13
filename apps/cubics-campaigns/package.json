@@ -17,8 +17,11 @@
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "dependencies": {
-    "@auth/supabase-adapter": "^1.7.0",
     "@studiocubics/ui": "*",
+    "@studiocubics/core": "*",
+    "@studiocubics/email": "*",
+    "@studiocubics/icons": "*",
+    "@auth/supabase-adapter": "^1.7.0",
     "@prisma/client": "^5.20.0",
     "@supabase/ssr": "^0.5.1",
     "@supabase/supabase-js": "^2.45.4",

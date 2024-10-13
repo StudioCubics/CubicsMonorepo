@@ -1,5 +1,5 @@
 module.exports = {
   icon: true,
-  outDir: "src/icons/",
+  outDir: "src",
   typescript: true,
 };
