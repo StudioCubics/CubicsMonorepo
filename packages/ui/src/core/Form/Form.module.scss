@@ -1,0 +1,15 @@
+.form {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+  }
+  &_control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &_message {
+    color: var(--danger);
+  }
+}

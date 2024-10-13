@@ -1,5 +1,5 @@
-import { auth, signOut } from "@/auth";
-import React from "react";
+import { auth } from "@/auth";
+import { IconButton } from "@studiocubics/ui";
 
 export default async function DashboardPage() {
   const session = await auth();
@@ -7,8 +7,10 @@ export default async function DashboardPage() {
     <div>
       dashboard:
       <br />
-      name : {session?.user?.name} | verified :{" "}
+      name : {session?.user.name} | verified :{" "}
       {JSON.stringify(session?.user.verified)}
+      {/* <EmailVerificationTemplate /> */}
+      <IconButton>hello</IconButton>
     </div>
   );
 }

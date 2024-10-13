@@ -1,6 +1,6 @@
-import { auth } from "@/auth";
 import Link from "next/link";
-import UserAccount from "./UserAccount";
+import { auth } from "@/auth";
+import UserAccount from "./user-account";
 
 export default async function Header() {
   const session = await auth();

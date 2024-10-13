@@ -1,0 +1,45 @@
+@import "../../utils/mixins/responsive";
+.accordion {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+.accordionItem {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--primary-faint);
+  padding-inline: 1rem;
+  @include mq-sm {
+    flex-direction: row;
+  }
+  &:hover,
+  &.active {
+    & .summary {
+      font-size: var(--fs-h1);
+      color: var(--secondary-text);
+    }
+    & .definition {
+      font-size: var(--fs-p);
+      opacity: 1;
+    }
+  }
+}
+.summary {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+  font-weight: bold;
+  font-size: var(--fs-h3);
+  transition: all 0.3s ease-in-out;
+  color: var(--gray-60);
+}
+.definition {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  font-size: 0;
+}

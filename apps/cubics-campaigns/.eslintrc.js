@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@cubics/eslint-config/next.js"],
+  extends: ["@studiocubics/eslint-config/next.js"],
 };

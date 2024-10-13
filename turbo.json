@@ -1,5 +1,16 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "DIRECT_URL",
+    "DATABASE_URL",
+    "LOCAL_PROVIDER_NAMESPACE",
+    "AUTH_SECRET",
+    "AUTH_GOOGLE_ID",
+    "AUTH_GOOGLE_SECRET",
+    "LOCAL_PROVIDER_NAMESPACE",
+    "SUPABASE_SECRET_KEY",
+    "RESEND_API_KEY"
+  ],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],

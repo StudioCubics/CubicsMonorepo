@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@cubics/eslint-config/react.js"],
+  extends: ["@studiocubics/eslint-config/react.js"],
 };

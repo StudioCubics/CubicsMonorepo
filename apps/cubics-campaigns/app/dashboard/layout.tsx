@@ -1,7 +1,6 @@
-import { auth } from "@/auth";
-import React, { ReactNode } from "react";
+import type { ReactNode } from "react";
 
-export default async function layout({
+export default function layout({
   children,
 }: {
   children: Readonly<ReactNode>;

@@ -1,0 +1,46 @@
+.iconButton {
+  border: none;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-size: var(--fs-p);
+  transition: all 0.3s ease;
+  padding: var(--pi-input);
+  scale: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    scale: 0.95;
+  }
+  &_ghost {
+    background: color-mix(in srgb, var(--primary) 0%, transparent);
+    color: var(--primary);
+    &:hover {
+      background: var(--primary-faint);
+    }
+  }
+  &_contained {
+    background: var(--primary);
+    color: var(--primary-text);
+    font-weight: bolder;
+    font-family: var(--font-h);
+
+    &:hover {
+      background: var(--primary-faint);
+      outline: 1px solid var(--primary);
+    }
+  }
+
+  &_outline {
+    background: none;
+    color: var(--primary);
+    font-weight: bolder;
+    font-family: var(--font-h);
+    outline: 1px solid var(--primary);
+
+    &:hover {
+      background: var(--primary-faint);
+    }
+  }
+}

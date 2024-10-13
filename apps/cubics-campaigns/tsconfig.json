@@ -1,5 +1,5 @@
 {
-  "extends": "@cubics/typescript-config/nextjs.json",
+  "extends": "@studiocubics/typescript-config/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
     "paths": {

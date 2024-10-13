@@ -1,5 +1,4 @@
 import { auth, signOut } from "@/auth";
-import { revalidatePath } from "next/cache";
 
 export default async function UserAccount() {
   const session = await auth();

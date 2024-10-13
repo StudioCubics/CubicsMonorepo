@@ -1,0 +1,21 @@
+.container {
+  background: var(--secondary-faint);
+  cursor: pointer;
+  transition: all 0.3s var(--transition-tf);
+  padding: 3rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary-text);
+  opacity: 0.5;
+  border-radius: var(--border-radius-lg);
+  &:hover,
+  &.dragged_over {
+    opacity: 1;
+    background: var(--secondary-faint-2);
+    scale: 1.01;
+  }
+}

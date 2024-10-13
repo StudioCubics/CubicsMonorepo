@@ -4,10 +4,10 @@ import { register } from "@/lib/authjs/actions";
 async function handleRegistration(formData: FormData) {
   "use server";
   // console.log(Object.fromEntries(formData.entries()));
-  await register(formData).catch((error) =>
-    console.log("Registration Error: ", error.message)
-  );
-  const res = await signIn("credentials", {
+  await register(formData).catch((error) => {
+    console.error("Registration Error: ", error);
+  });
+  await signIn("credentials", {
     email: formData.get("email"),
     password: formData.get("password"),
     redirectTo: "/dashboard",

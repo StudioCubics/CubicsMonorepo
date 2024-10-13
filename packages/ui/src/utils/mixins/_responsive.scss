@@ -1,0 +1,27 @@
+// Small devices
+@mixin mq-sm {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin mq-md {
+  @media only screen and (min-width: 900px) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin mq-lg {
+  @media only screen and (min-width: 1281px) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin mq-xl {
+  @media only screen and (min-width: 1536px) {
+    @content;
+  }
+}

@@ -1,0 +1,57 @@
+.layout {
+  display: flex;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  min-width: 250px;
+  border-radius: var(--border-radius-lg);
+  overflow: auto;
+  transition: all 0.3s var(--transition-tf);
+
+  &.primary {
+    background: var(--secondary-faint);
+  }
+  &.secondary {
+    background: var(--secondary-faint-2);
+  }
+  // stagger the open close sidebar button
+  &.closed {
+    width: 5%;
+    min-width: 3rem;
+  }
+  &_trigger {
+    align-self: flex-end;
+  }
+
+  &.closed &_trigger {
+    align-self: stretch;
+    & > svg {
+      transform: rotateY(180deg);
+    }
+  }
+}
+.main {
+  width: 100%;
+  background: var(--secondary-faint-2);
+  border-radius: var(--border-radius-lg);
+  overflow: clip;
+  position: relative;
+
+  &.withTitle {
+    padding-top: calc(var(--fs-h3) + 2rem);
+  }
+
+  & > h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-block: 1rem;
+    padding-left: 1rem;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,74 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  // gap: 0.5em;
+}
+.listItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: var(--fs-p);
+  padding: 0.5em;
+  text-decoration: none;
+  transition: all 0.3s var(--transition-tf);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    background: var(--secondary-faint);
+    color: var(--secondary-text);
+  }
+
+  & p {
+    max-width: 20ch;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  &.selected {
+    background: var(--primary-faint);
+    color: var(--secondary-text);
+  }
+  &.expanded {
+    & .expandIcon {
+      rotate: 90deg;
+    }
+  }
+}
+.icon {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+}
+
+.expandIcon {
+  display: flex;
+  align-items: center;
+  transition: rotate 0.3s var(--transition-tf);
+  color: var(--primary);
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.listNodes {
+  background: var(--secondary-faint-2);
+  // margin-left: 0.5em;
+  padding-left: 0.5em;
+  border-radius: var(--border-radius);
+  height: 0em;
+  overflow: hidden;
+  transition: all 0.3s var(--transition-tf);
+  &.expanded {
+    padding-block: 0.5em;
+    height: calc((var(--list-count, 0) * 2.15em) + 0.25em);
+  }
+}

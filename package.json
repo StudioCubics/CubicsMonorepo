@@ -1,5 +1,7 @@
 {
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -9,7 +11,7 @@
     "clean": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "version-packages": "changeset version",
-    "release": "turbo build --filter=@studiocubics/cubics-campaigns^... && changeset publish"
+    "release": "turbo build --filter=@studiocubics/ui && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

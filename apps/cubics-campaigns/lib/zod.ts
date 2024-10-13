@@ -1,4 +1,5 @@
-import { object, string, ZodError } from "zod";
+import type { ZodError } from "zod";
+import { object, string } from "zod";
 
 export function actionError(msg: string) {
   return {

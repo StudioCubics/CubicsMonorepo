@@ -1,0 +1,22 @@
+.select {
+  cursor: pointer;
+  position: relative;
+  background: color-mix(in srgb, var(--primary-faint) 20%, transparent);
+  font-size: var(--fs-p);
+  color: var(--primary-text);
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  padding-inline: var(--pi-input);
+  padding-block: 0.4em;
+  accent-color: var(--primary);
+  font-family: var(--font-h);
+
+  & optgroup {
+    background-color: var(--bg-color);
+    font-family: var(--font-b);
+  }
+  & option {
+    background-color: var(--bg-color);
+    font-family: var(--font-b);
+  }
+}

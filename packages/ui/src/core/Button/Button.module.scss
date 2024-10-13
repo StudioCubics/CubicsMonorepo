@@ -1,0 +1,79 @@
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: fit-content;
+  font-weight: bolder;
+  font-size: var(--fs-p);
+  transition: all 0.3s ease;
+  scale: 1;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0;
+  text-decoration: none;
+
+  &:disabled {
+    background: none;
+    color: var(--gray-40);
+  }
+
+  &:not(.fullWidth) {
+    max-width: max-content;
+  }
+  &:active:not([disabled]) {
+    scale: 0.95;
+  }
+}
+
+.contained {
+  background: var(--primary);
+  color: var(--primary-text);
+  &:hover:not([disabled]) {
+    background: var(--primary-faint);
+    outline: 1px solid var(--primary);
+  }
+  &:active:not([disabled]) {
+    outline: 1px solid var(--primary-faint);
+  }
+}
+.outline {
+  background: none;
+  color: var(--primary);
+  outline: 1px solid var(--primary);
+
+  &:hover:not([disabled]) {
+    background: var(--primary-faint);
+  }
+}
+.ghost {
+  background: none;
+  color: var(--primary);
+  &:hover:not([disabled]) {
+    background: var(--primary-faint);
+  }
+}
+.destructive {
+  background: none;
+  color: var(--danger);
+  &:hover:not([disabled]) {
+    background: color-mix(in srgb, var(--danger) 50%, transparent);
+    color: var(--primary-text);
+  }
+}
+
+.buttonText {
+  margin-inline: var(--pi-input);
+  margin-block: var(--pb-input);
+}
+.decoration {
+  display: flex;
+
+  &.start {
+    margin-left: var(--pi-input);
+  }
+
+  &.end {
+    margin-right: var(--pi-input);
+  }
+}

@@ -1,15 +1,15 @@
-import { NextAuthConfig } from "next-auth";
+import type { NextAuthConfig } from "next-auth";
 import { encode } from "next-auth/jwt";
+import { v4 as uuid } from "uuid";
 import { supabaseAdapter } from "./adapters.config";
-import { v4 } from "uuid";
 
 export default {
   jwt: {
-    encode: async function (params) {
+    encode: async (params) => {
       // params comes from callbacks jwt() in callbacks.config.ts
       console.log("token in encode/JWT", params.token);
       if (params.token?.credentials) {
-        const sessionToken = v4();
+        const sessionToken = uuid();
 
         if (!params.token.sub) {
           throw new Error("No user ID found in token");

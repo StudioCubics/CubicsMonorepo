@@ -1,32 +1,60 @@
 {
-  "name": "@cubics/ui",
-  "version": "0.0.0",
-  "sideEffects": [
-    "**/*.css"
-  ],
+  "name": "@studiocubics/ui",
+  "author": {
+    "name": "Studio Cubics",
+    "email": "studiocubics7@gmail.com",
+    "url": "https://studio-cubics.vercel.app"
+  },
+  "version": "0.0.3",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/"
   ],
   "exports": {
-    "./styles.css": "./dist/index.css"
+    "./styles.css": "./dist/index.css",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
   },
   "license": "MIT",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
-    "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+    "build": "svgr -- src/icons/ && rollup --config",
+    "dev": "svgr -- src/icons/ && rollup --config --watch",
     "type-check": "tsc --noEmit",
     "lint": "eslint \"src/**/*.ts*\"",
-    "clean": "del /q .turbo && del /q dist"
+    "clean": "rmdir /s /q .turbo; rmdir /s /q dist"
   },
-  "dependencies": {
-    "react": "^18.2.0"
+  "peerDependencies": {
+    "@react-email/components": "^0.0.25",
+    "react": "^18.2.0",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
-    "@cubics/eslint-config": "*",
-    "@cubics/tailwind-config": "*",
-    "@cubics/typescript-config": "*",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@studiocubics/eslint-config": "*",
+    "@studiocubics/typescript-config": "*",
+    "@svgr/cli": "^8.1.0",
+    "@svgr/rollup": "^8.1.0",
     "@types/react": "^18.2.61",
-    "tsup": "^8.0.2",
+    "rollup": "^4.24.0",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "rollup-plugin-banner2": "^1.3.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.79.5",
     "typescript": "^5.3.3"
   }
 }

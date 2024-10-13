@@ -1,6 +1,6 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
-import supabaseAccessToken from "./supabaseAccessToken";
+import supabaseAccessToken from "./supabase-access-token";
 
 export function createClient() {
   const cookieStore = cookies();

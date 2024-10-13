@@ -3,7 +3,7 @@ import { signIn } from "@/auth";
 async function handleLogin(formData: FormData) {
   "use server";
   // console.log(Object.fromEntries(formData.entries()));
-  const res = await signIn("credentials", {
+  await signIn("credentials", {
     email: formData.get("email"),
     password: formData.get("password"),
     redirectTo: "/dashboard",

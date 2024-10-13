@@ -1,18 +1,16 @@
+import type { NextAuthConfig } from "next-auth";
 import { SignJWT } from "jose";
-import { NextAuthConfig } from "next-auth";
 
 export default {
   callbacks: {
-    async jwt({ token, user, account }) {
+    jwt({ token, user, account }) {
       // jwt is required as credentials provider supports only jwt
       // returned token is received by jwt's encode in jwt.config.ts
       if (account?.provider === "credentials") {
         token.credentials = true;
       }
       console.log("user", user);
-      if (user) {
-        token.emailVerified = (user as any).emailVerified; // Add emailVerified to the token
-      }
+      token.emailVerified = user.emailVerified; // Add emailVerified to the token
       return token;
     },
 
@@ -21,7 +19,7 @@ export default {
       console.log("user in session", user);
 
       //   if (user?.emailVerified)
-      session.user.verified = !!(user.emailVerified as Date | null);
+      session.user.verified = Boolean(user.emailVerified);
 
       const signingSecret = process.env.SUPABASE_JWT_SECRET;
       if (signingSecret) {

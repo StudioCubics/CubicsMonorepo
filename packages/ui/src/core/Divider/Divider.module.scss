@@ -1,0 +1,36 @@
+.divider {
+  background: var(--primary-faint);
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  &.horizontal {
+    height: 1px;
+    flex: 1 0 auto;
+    align-self: stretch;
+  }
+  &.vertical {
+    width: 1px;
+    flex: 1 0 100%;
+    align-self: stretch;
+  }
+}
+.container {
+  display: flex;
+  width: 100%;
+  gap: 0.5em;
+  color: var(--secondary-text);
+  &.horizontal {
+    & > .divider.horizontal {
+      align-self: center;
+    }
+  }
+
+  &.vertical {
+    flex-direction: column;
+    justify-content: center;
+    & > .divider.horizontal {
+      align-self: center;
+    }
+  }
+}

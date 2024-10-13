@@ -1,13 +1,13 @@
-import { NextAuthConfig } from "next-auth";
+import type { NextAuthConfig } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import Google from "next-auth/providers/google";
-import prisma from "@/prisma/client";
 import { compare } from "bcryptjs";
+import prisma from "@/prisma/client";
 
-export type CredentialsFormData = {
+export interface CredentialsFormData {
   email: string;
   password: string;
-};
+}
 
 const providers = [
   Google,
@@ -44,17 +44,6 @@ const providers = [
     },
   }),
 ];
-
-export const providersMap = providers
-  .map((provider) => {
-    if (typeof provider === "function") {
-      const providerData = provider({});
-      return { id: providerData.id, name: providerData.name };
-    } else {
-      return { id: provider.id, name: provider.name };
-    }
-  })
-  .filter((provider) => provider.id !== "credentials");
 
 export default {
   providers,

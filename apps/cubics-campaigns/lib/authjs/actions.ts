@@ -1,10 +1,10 @@
-import prisma from "@/prisma/client";
 import { hash } from "bcryptjs";
+import { v5 as uuid } from "uuid";
+import prisma from "@/prisma/client";
 import { actionError, registerSchema } from "../zod";
-import { v5 } from "uuid";
 
 export async function register(formData: FormData) {
-  const { success, data, error } = registerSchema.safeParse(
+  const { data, error } = registerSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
   if (error)
@@ -26,9 +26,9 @@ export async function register(formData: FormData) {
     },
   });
   if (!user) throw new Error("User could not be created");
-  const providerAccountId = v5(
+  const providerAccountId = uuid(
     data.email,
-    process.env.LOCAL_PROVIDER_NAMESPACE!
+    process.env.LOCAL_PROVIDER_NAMESPACE ?? "Ethoslab"
   );
   const account = await prisma.accounts.create({
     data: {

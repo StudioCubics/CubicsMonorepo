@@ -1,5 +1,5 @@
 {
-  "name": "@cubics/eslint-config",
+  "name": "@studiocubics/eslint-config",
   "version": "0.0.0",
   "private": true,
   "devDependencies": {
