@@ -1,9 +1,10 @@
-import React, {
+import { forwardRef } from "react";
+import type {
   ComponentPropsWithoutRef,
   CSSProperties,
   ElementType,
-  forwardRef,
   ForwardRefRenderFunction,
+  MouseEvent,
 } from "react";
 import useDisclosure from "../../utils/hooks/useDisclosure";
 import List from "./List";
@@ -41,7 +42,7 @@ const ListItemInner: ForwardRefRenderFunction<HTMLLIElement, ListItemProps> = (
 
   // If there are nodes then render the nodes below the parent items
   if (props.nodes && props.nodes.length > 0) {
-    const handleClick = (e: React.MouseEvent<HTMLLIElement>) => {
+    const handleClick = (e: MouseEvent<HTMLLIElement>) => {
       if (onClick) onClick(e);
       handleToggle();
     };

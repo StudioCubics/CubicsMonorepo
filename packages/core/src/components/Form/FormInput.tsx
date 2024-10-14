@@ -1,3 +1,4 @@
+"use client";
 import React, { forwardRef, useState } from "react";
 import IconButton from "../IconButton/IconButton";
 import Input, { InputProps } from "../Input/Input";

@@ -21,6 +21,7 @@
     "@studiocubics/core": "*",
     "@studiocubics/email": "*",
     "@studiocubics/icons": "*",
+    "@studiocubics/styles": "*",
     "@auth/supabase-adapter": "^1.7.0",
     "@prisma/client": "^5.20.0",
     "@supabase/ssr": "^0.5.1",

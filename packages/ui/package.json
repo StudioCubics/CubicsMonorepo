@@ -5,7 +5,7 @@
     "email": "studiocubics7@gmail.com",
     "url": "https://studio-cubics.vercel.app"
   },
-  "version": "1.0.0",
+  "version": "1.2.0",
   "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -35,16 +35,17 @@
     "clean": "rmdir /s /q .turbo; rmdir /s /q dist"
   },
   "dependencies": {
-    "@studiocubics/core": "^1.0.0",
-    "@studiocubics/email": "^1.0.0",
-    "@studiocubics/icons": "^1.0.0"
+    "@studiocubics/core": "^1.2.0",
+    "@studiocubics/email": "^1.2.0",
+    "@studiocubics/icons": "^1.2.0"
   },
   "devDependencies": {
     "@studiocubics/eslint-config": "*",
-    "@studiocubics/typescript-config": "*",
     "@studiocubics/rollup-config": "*",
-    "@types/react": "^18.2.61",
+    "@studiocubics/typescript-config": "*",
     "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.2.61",
+    "rollup-plugin-preserve-directives": "^0.4.0",
     "typescript": "^5.3.3"
   }
 }

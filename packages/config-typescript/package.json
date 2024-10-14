@@ -1,9 +1,14 @@
 {
   "name": "@studiocubics/typescript-config",
   "version": "0.0.0",
-  "private": true,
   "license": "MIT",
+  "private": true,
   "publishConfig": {
     "access": "public"
+  },
+  "author": {
+    "name": "Studio Cubics",
+    "email": "studiocubics7@gmail.com",
+    "url": "https://studio-cubics.vercel.app"
   }
 }

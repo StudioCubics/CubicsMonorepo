@@ -1,0 +1,23 @@
+{
+  "name": "@studiocubics/styles",
+  "version": "1.1.0",
+  "description": "Styles of all the studio cubics units",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "styles"
+  ],
+  "author": {
+    "name": "Studio Cubics",
+    "email": "studiocubics7@gmail.com",
+    "url": "https://studio-cubics.vercel.app"
+  },
+  "exports": {
+    "./cubicscampaigns": "./cubicscampaigns.scss",
+    "./studiocubics": "./studiocubics.scss",
+    "./common": "./_index.scss"
+  }
+}

@@ -1,26 +1,26 @@
 {
   "name": "@studiocubics/core",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Contains all the components to build a webapp",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "author": "Studio Cubics",
+  "author": {
+    "name": "Studio Cubics",
+    "email": "studiocubics7@gmail.com",
+    "url": "https://studio-cubics.vercel.app"
+  },
   "license": "ISC",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist/"
   ],
   "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      }
-    }
+    "./styles": "./dist/index.css",
+    ".": "./dist/index.js"
   },
   "scripts": {
     "build": "rollup --config",
@@ -32,11 +32,11 @@
     "@studiocubics/eslint-config": "*",
     "@studiocubics/rollup-config": "*",
     "@studiocubics/typescript-config": "*",
+    "@studiocubics/styles": "*",
     "sass": "^1.79.5",
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-hot-toast": "^2.4.1"
+    "react": "^18.3.1"
   }
 }

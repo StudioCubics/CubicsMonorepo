@@ -1,22 +1,26 @@
+// rollup.config.js
+/**
+ * @type {import('rollup').RollupOptions}
+ */
+const fs = require("fs");
 const commonjs = require("@rollup/plugin-commonjs");
 const json = require("@rollup/plugin-json");
 const resolve = require("@rollup/plugin-node-resolve");
 const terser = require("@rollup/plugin-terser");
 const typescript = require("@rollup/plugin-typescript");
 const analyze = require("rollup-plugin-analyzer");
-const banner = require("rollup-plugin-banner2");
 const postcss = require("rollup-plugin-postcss");
-const fs = require("fs");
+const { preserveDirectives } = require("rollup-plugin-preserve-directives");
 // TODO Modularise this configuration file more
 
 const baseBuildMap = {
   input: "src/index.ts", // Entry file
   output: [
-    {
-      file: "dist/index.mjs",
-      sourcemap: false,
-      format: "esm",
-    },
+    // {
+    //   file: "dist/index.mjs",
+    //   sourcemap: false,
+    //   format: "esm",
+    // },
     {
       dir: "dist",
       preserveModules: true,
@@ -35,18 +39,24 @@ const plugins = {
     }),
     commonjs(),
     json(),
-    terser(),
+    preserveDirectives({
+      suppressPreserveModulesWarning: true,
+      exclude: ["**/*.scss"],
+    }),
+    terser({ compress: { directives: false } }),
     typescript({
       tsconfig: "tsconfig.json",
       outDir: "dist",
     }),
-    banner(() => '"use client";'),
     postcss({
       modules: true,
       extract: true,
       sourceMap: false,
       minimize: true,
       use: ["sass"],
+      config: {
+        path: "postcss.config.js",
+      },
     }),
     analyze({
       summaryOnly: true,

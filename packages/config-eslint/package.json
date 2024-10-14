@@ -2,6 +2,11 @@
   "name": "@studiocubics/eslint-config",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Studio Cubics",
+    "email": "studiocubics7@gmail.com",
+    "url": "https://studio-cubics.vercel.app"
+  },
   "devDependencies": {
     "@vercel/style-guide": "^5.2.0",
     "eslint-config-turbo": "^2.0.0"

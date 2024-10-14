@@ -1,5 +1,5 @@
+"use client";
 import { useState } from "react";
-import toast from "react-hot-toast";
 
 export default function useFormHelpers(initialLoadingState = false) {
   const [loading, setLoading] = useState<boolean>(initialLoadingState);
@@ -11,7 +11,7 @@ export default function useFormHelpers(initialLoadingState = false) {
     setLoading(false);
   }
   function showErrorToast(error: string) {
-    toast.error(error);
+    alert(error);
   }
 
   return { loading, startLoading, endLoading, showErrorToast };

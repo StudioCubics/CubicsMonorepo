@@ -1,4 +1,4 @@
-import React, { ComponentPropsWithoutRef, forwardRef, ReactNode } from "react";
+import { ComponentPropsWithoutRef, forwardRef, ReactNode } from "react";
 import styles from "./Form.module.scss";
 
 interface FormMessageProps extends ComponentPropsWithoutRef<"p"> {

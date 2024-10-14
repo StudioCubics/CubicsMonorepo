@@ -1,3 +1,4 @@
+"use client";
 import React, { ComponentPropsWithoutRef, forwardRef, useState } from "react";
 import styles from "./DragNDrop.module.scss";
 
