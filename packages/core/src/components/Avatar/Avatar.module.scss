@@ -1,5 +1,5 @@
 .container {
-  border-radius: var(--border-radius);
+  border-radius: var(--br);
   background: var(--secondary);
   padding: 2px;
   display: flex;
@@ -17,7 +17,7 @@
 
   & > img {
     align-self: center;
-    border-radius: var(--border-radius);
+    border-radius: var(--br);
     width: 100%;
     height: 100%;
     object-fit: contain;

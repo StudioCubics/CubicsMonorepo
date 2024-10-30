@@ -25,7 +25,7 @@
   "scripts": {
     "build": "rollup --config",
     "clean": "rmdir /s /q dist",
-    "dev": "rollup --config --watch",
+    "dev": "rollup --config --silent --watch",
     "lint": "eslint ."
   },
   "devDependencies": {

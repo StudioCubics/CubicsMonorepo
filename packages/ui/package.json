@@ -29,7 +29,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup --config",
-    "dev": "rollup --config --watch",
+    "dev": "rollup --config --watch --silent",
     "type-check": "tsc --noEmit",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rmdir /s /q .turbo; rmdir /s /q dist"

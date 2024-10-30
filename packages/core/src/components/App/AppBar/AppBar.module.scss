@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4.15%;
+}
+.sticky {
+  position: absolute;
+  left: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.top {
+  top: 0;
+}

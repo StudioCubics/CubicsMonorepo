@@ -1,6 +1,3 @@
 module.exports = {
-  plugins: [
-    require("autoprefixer"),
-    require("postcss-prefixer")({ prefix: "sc_" }),
-  ],
+  plugins: [require("autoprefixer"), require("postcss-prefixer")],
 };

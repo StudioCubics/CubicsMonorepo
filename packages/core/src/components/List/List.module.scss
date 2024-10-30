@@ -16,7 +16,7 @@
   padding: 0.5em;
   text-decoration: none;
   transition: all 0.3s var(--transition-tf);
-  border-radius: var(--border-radius);
+  border-radius: var(--br);
 
   &:hover {
     background: var(--secondary-faint);
@@ -63,7 +63,7 @@
   background: var(--secondary-faint-2);
   // margin-left: 0.5em;
   padding-left: 0.5em;
-  border-radius: var(--border-radius);
+  border-radius: var(--br);
   height: 0em;
   overflow: hidden;
   transition: all 0.3s var(--transition-tf);

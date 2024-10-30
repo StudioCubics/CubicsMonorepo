@@ -17,7 +17,6 @@
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   },
   "dependencies": {
-    "@studiocubics/ui": "*",
     "@studiocubics/core": "*",
     "@studiocubics/email": "*",
     "@studiocubics/icons": "*",

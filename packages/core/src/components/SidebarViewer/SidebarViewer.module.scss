@@ -9,7 +9,7 @@
   height: 100%;
   width: 30%;
   min-width: 250px;
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--br-lg);
   overflow: auto;
   transition: all 0.3s var(--transition-tf);
 
@@ -38,7 +38,7 @@
 .main {
   width: 100%;
   background: var(--secondary-faint-2);
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--br-lg);
   overflow: clip;
   position: relative;
 

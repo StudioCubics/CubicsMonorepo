@@ -1,50 +1,49 @@
 @import "index";
 :root {
+  color-scheme: light;
   // Base
-  --gray-100: hsl(0, 0%, 100%);
+  --white: hsl(0, 0%, 100%);
   --gray-80: hsl(0, 0%, 80%);
   --gray-60: hsl(0, 0%, 60%);
   --gray-40: hsl(0, 0%, 40%);
   --gray-20: hsl(0, 0%, 20%);
-  --gray-5: hsl(0, 0%, 5%);
-  --aqua-60: hsl(161, 82%, 40%);
-  --aqua-50: hsl(161, 82%, 24%);
-  --aqua-35: hsl(178, 77%, 18%);
+  --black: hsl(0, 0%, 5%);
+  --aqua-100: hsl(161, 82%, 40%);
+  --aqua-75: hsl(161, 82%, 24%);
+  --aqua-50: hsl(178, 77%, 18%);
   --aqua-25: hsl(188, 63%, 12%);
-  --aqua-5: hsl(188, 63%, 5%);
-  --aqua-5-0: hsla(188, 63%, 5%, 0);
-  --lightgreen-50: hsl(110, 100%, 75%);
-  --lightgreen-40: hsl(109, 56%, 58%);
-  --lightgreen-35: hsl(144, 90%, 33%);
-  --lightgreen-20: hsl(144, 90%, 23%);
-  --lightgreen-20-30: color-mix(in srgb, var(--lightgreen-20) 30%, transparent);
-
-  // Derived
-  --bg-color: var(--aqua-5);
-  --primary: var(--lightgreen-35);
-  --primary-text: var(--gray-100);
-  --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
-  --secondary: var(--aqua-35);
-  --secondary-text: var(--lightgreen-50);
-  --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
-  --secondary-faint-2: color-mix(in srgb, var(--aqua-25) 10%, transparent);
-  --gradient: radial-gradient(
-    50% 50% at 50% 50%,
-    var(--primary-faint) 0%,
-    var(--aqua-5-0) 100%
-  );
-  --gradient-secondary: radial-gradient(
-    50% 50% at 50% 50%,
-    var(--secondary-faint) 0%,
-    var(--aqua-5-0) 100%
-  );
-  --card-bg: var(--aqua-25);
+  --aqua-0: hsl(188, 63%, 5%);
+  --lightgreen-100: hsl(110, 100%, 75%);
+  --lightgreen-75: hsl(109, 56%, 58%);
+  --lightgreen-50: hsl(144, 90%, 33%);
+  --lightgreen-25: hsl(144, 90%, 23%);
+  --lightgreen-0: hsl(145, 88%, 6%);
   --danger: hsl(357, 60%, 49%);
   --warning: hsl(46, 85%, 57%);
 
+  // Derived
+  --bg: var(--white);
+  --bg-card: var(--lightgreen-100);
+  --primary: var(--lightgreen-50);
+  --primary-text: var(--aqua-0);
+  --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
+  --secondary: var(--aqua-50);
+  --secondary-text: var(--lightgreen-50);
+  --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
+  --gradient: radial-gradient(
+    50% 50% at 50% 50%,
+    var(--primary-faint) 0%,
+    var(--secondary-faint) 100%
+  );
+  --gradient-secondary: radial-gradient(
+    50% 50% at 50% 50%,
+    var(--primary-faint) 0%,
+    var(--secondary-faint) 100%
+  );
+
   // Utility
-  --border-radius: 0.3em;
-  --border-radius-lg: 0.8em;
+  --br: 0.3em;
+  --br-lg: 0.8em;
   --pb-input: 0.5em;
   --pi-input: 0.75em;
   --transition-tf: cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -53,21 +52,21 @@
 
   // Typography
   --fs-h1: 1.5rem;
+  --fs-h2: 1.25rem;
+  --fs-h3: 1rem;
+  --fs-p: 0.875rem;
   @include mq-md {
     --fs-h1: 2.75rem;
   }
   @include mq-lg {
     --fs-h1: 3.125rem;
   }
-  --fs-h2: 1.25rem;
   @include mq-md {
     --fs-h2: 1.5rem;
   }
-  --fs-h3: 1rem;
   @include mq-md {
     --fs-h3: 1.125rem;
   }
-  --fs-p: 0.875rem;
   @include mq-lg {
     --fs-p: 1rem;
   }
@@ -89,17 +88,20 @@ input {
     Ubuntu,
     sans-serif;
 }
-body {
-  color: var(--primary-text);
-  background: var(--bg-color);
-  padding: 0;
-  margin: 0;
-}
-
 h1,
 h2,
 h3 {
   font-family: var(--font-h);
+}
+body {
+  color: var(--primary-text);
+  background: var(--bg);
+}
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -119,8 +121,6 @@ h3 {
 p {
   font-size: var(--fs-p);
   line-height: calc(var(--fs-p) * 1.42857);
-  margin: 0;
-  padding: 0;
 }
 a {
   // text-decoration: none;
@@ -129,10 +129,6 @@ a {
 a:hover {
   color: var(--secondary-text);
   transition: color 300ms ease;
-}
-
-.bolder {
-  font-weight: bold;
 }
 // Scrollbar styles
 ::-webkit-scrollbar {
@@ -153,4 +149,53 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:window-inactive {
   background: var(--secondary);
+}
+.dark {
+  color-scheme: dark;
+  // Derived
+  --bg: var(--aqua-0);
+  --bg-card: var(--lightgreen-100);
+  --primary: var(--lightgreen-50);
+  --primary-text: var(--white);
+  --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
+  --secondary: var(--aqua-35);
+  --secondary-text: var(--lightgreen-100);
+  --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
+  --gradient: radial-gradient(
+    50% 50% at 50% 50%,
+    var(--primary-faint) 0%,
+    var(--secondary-faint) 100%
+  );
+  --gradient-secondary: radial-gradient(
+    50% 50% at 50% 50%,
+    var(--primary-faint) 0%,
+    var(--secondary-faint) 100%
+  );
+}
+.dark {
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    // Derived
+    --bg: var(--aqua-0);
+    --bg-card: var(--lightgreen-100);
+    --primary: var(--lightgreen-50);
+    --primary-text: var(--white);
+    --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
+    --secondary: var(--aqua-35);
+    --secondary-text: var(--lightgreen-100);
+    --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
+    --gradient: radial-gradient(
+      50% 50% at 50% 50%,
+      var(--primary-faint) 0%,
+      var(--secondary-faint) 100%
+    );
+    --gradient-secondary: radial-gradient(
+      50% 50% at 50% 50%,
+      var(--primary-faint) 0%,
+      var(--secondary-faint) 100%
+    );
+  }
 }

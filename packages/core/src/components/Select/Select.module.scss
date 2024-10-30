@@ -5,18 +5,18 @@
   font-size: var(--fs-p);
   color: var(--primary-text);
   border: 1px solid var(--primary);
-  border-radius: var(--border-radius);
+  border-radius: var(--br);
   padding-inline: var(--pi-input);
   padding-block: 0.4em;
   accent-color: var(--primary);
   font-family: var(--font-h);
 
   & optgroup {
-    background-color: var(--bg-color);
+    background-color: var(--bg);
     font-family: var(--font-b);
   }
   & option {
-    background-color: var(--bg-color);
+    background-color: var(--bg);
     font-family: var(--font-b);
   }
 }

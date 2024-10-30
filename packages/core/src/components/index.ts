@@ -1,14 +1,16 @@
-// Form
 export * from "./Form/index";
-// List
 export * from "./List/index";
-// Sidebar
 export * from "./SidebarViewer/index";
+export * from "./App/index";
 
 // Buttons
 export { default as Button } from "./Button/Button";
 export { default as IconButton } from "./IconButton/IconButton";
 export { default as Hamburger } from "./Hamburger/Hamburger";
+export {
+  default as ColorScheme,
+  useColorScheme,
+} from "./ColorScheme/ColorScheme";
 
 // Inputs
 export { default as Select } from "./Select/Select";
