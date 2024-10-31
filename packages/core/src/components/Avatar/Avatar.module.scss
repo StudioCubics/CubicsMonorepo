@@ -5,14 +5,14 @@
   display: flex;
   aspect-ratio: 1 / 1;
 
-  & .small {
-    max-width: 16;
+  &.small {
+    width: 20px;
   }
-  & .medium {
-    max-width: 24;
+  &.medium {
+    width: 32px;
   }
-  & .large {
-    max-width: 40;
+  &.large {
+    width: 40px;
   }
 
   & > img {

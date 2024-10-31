@@ -48,12 +48,7 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
         {...divProps}
       >
         {image ? (
-          <img
-            src={image}
-            alt={displayName}
-            width={getSize()}
-            height={getSize()}
-          />
+          <img src={image} alt={displayName} />
         ) : (
           <p>{getInitials(displayName)}</p>
         )}

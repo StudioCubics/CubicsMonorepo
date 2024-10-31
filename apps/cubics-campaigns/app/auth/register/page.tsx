@@ -3,7 +3,6 @@ import { register } from "@/lib/authjs/actions";
 
 async function handleRegistration(formData: FormData) {
   "use server";
-  // console.log(Object.fromEntries(formData.entries()));
   await register(formData).catch((error) => {
     console.error("Registration Error: ", error);
   });
@@ -12,7 +11,6 @@ async function handleRegistration(formData: FormData) {
     password: formData.get("password"),
     redirectTo: "/dashboard",
   });
-  // console.log("res", res);
   // redirect("/auth/login");
 }
 export default function RegisterPage() {

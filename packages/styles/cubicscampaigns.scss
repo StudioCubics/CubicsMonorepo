@@ -1,6 +1,5 @@
 @import "index";
 :root {
-  color-scheme: light;
   // Base
   --white: hsl(0, 0%, 100%);
   --gray-80: hsl(0, 0%, 80%);
@@ -44,8 +43,8 @@
   // Utility
   --br: 0.3em;
   --br-lg: 0.8em;
-  --pb-input: 0.5em;
-  --pi-input: 0.75em;
+  --pb-input: 0.3em;
+  --pi-input: 0.7em;
   --transition-tf: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   // TODO change the header-height for mobile viewports
   --header-height: 4rem;
@@ -172,30 +171,8 @@ a:hover {
     var(--secondary-faint) 100%
   );
 }
-.dark {
-  color-scheme: dark;
-}
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    // Derived
-    --bg: var(--aqua-0);
-    --bg-card: var(--lightgreen-100);
-    --primary: var(--lightgreen-50);
-    --primary-text: var(--white);
-    --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
-    --secondary: var(--aqua-35);
-    --secondary-text: var(--lightgreen-100);
-    --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
-    --gradient: radial-gradient(
-      50% 50% at 50% 50%,
-      var(--primary-faint) 0%,
-      var(--secondary-faint) 100%
-    );
-    --gradient-secondary: radial-gradient(
-      50% 50% at 50% 50%,
-      var(--primary-faint) 0%,
-      var(--secondary-faint) 100%
-    );
   }
 }

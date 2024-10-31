@@ -6,14 +6,13 @@ export default function ColorSchemeToggle() {
   const { setDarkMode, setLightMode, currentScheme } = useColorScheme();
 
   return (
-    <div>
-      {currentScheme}
-      <Button variant="ghost" onClick={setLightMode}>
-        Light
-      </Button>
-      <Button variant="ghost" onClick={setDarkMode}>
-        Dark
-      </Button>
-    </div>
+    <Button
+      variant="ghost"
+      onClick={() =>
+        currentScheme == "light" ? setDarkMode() : setLightMode()
+      }
+    >
+      {currentScheme == "dark" ? "Light" : "Dark"}
+    </Button>
   );
 }

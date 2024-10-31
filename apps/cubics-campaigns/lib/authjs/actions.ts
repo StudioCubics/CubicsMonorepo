@@ -1,7 +1,10 @@
+"use server";
+
 import { hash } from "bcryptjs";
 import { v5 as uuid } from "uuid";
 import prisma from "@/prisma/client";
 import { actionError, registerSchema } from "../zod";
+import { signIn, signOut } from "@/auth";
 
 export async function register(formData: FormData) {
   const { data, error } = registerSchema.safeParse(
@@ -40,4 +43,8 @@ export async function register(formData: FormData) {
     },
   });
   if (!account) throw new Error("Account could not be created");
+}
+
+export async function handleSignOut() {
+  await signOut({ redirectTo: "/" });
 }

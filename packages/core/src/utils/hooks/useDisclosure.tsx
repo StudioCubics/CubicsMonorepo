@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function useDisclosure(initialState: boolean) {
+export default function useDisclosure(initialState: boolean = false) {
   const [open, setOpen] = useState(initialState);
 
   function handleOpen() {
