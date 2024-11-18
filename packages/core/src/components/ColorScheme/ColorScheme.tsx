@@ -8,16 +8,6 @@ import {
   useState,
 } from "react";
 
-const ColorSchemeContext = createContext<ColorSchemeContextProps | null>(null);
-
-export const useColorScheme = () => {
-  const c = useContext(ColorSchemeContext);
-  if (!c) {
-    throw new Error("Components must be wrapped in <ColorSchemeToggle/>");
-  }
-  return c;
-};
-
 export type ColorSchemeProps = {
   defaultScheme?: "dark" | "light" | "system";
   children: Readonly<ReactNode>;
@@ -27,6 +17,15 @@ export type ColorSchemeContextProps = {
   currentScheme: "dark" | "light";
   setDarkMode(): void;
   setLightMode(): void;
+};
+const ColorSchemeContext = createContext<ColorSchemeContextProps | null>(null);
+
+export const useColorScheme = () => {
+  const c = useContext(ColorSchemeContext);
+  if (!c) {
+    throw new Error("Components must be wrapped in <ColorScheme/>");
+  }
+  return c;
 };
 export default function ColorScheme({
   defaultScheme = "system",

@@ -2,7 +2,7 @@
 :root {
   // Base
   --white: hsl(0, 0%, 100%);
-  --gray-80: hsl(0, 0%, 80%);
+  --gray-90: hsl(0, 0%, 90%);
   --gray-60: hsl(0, 0%, 60%);
   --gray-40: hsl(0, 0%, 40%);
   --gray-20: hsl(0, 0%, 20%);
@@ -22,7 +22,7 @@
 
   // Derived
   --bg: var(--white);
-  --bg-card: var(--lightgreen-100);
+  --bg-card: var(--gray-90);
   --primary: var(--lightgreen-50);
   --primary-text: var(--aqua-0);
   --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
@@ -153,11 +153,11 @@ a:hover {
   color-scheme: dark;
   // Derived
   --bg: var(--aqua-0);
-  --bg-card: var(--lightgreen-100);
+  --bg-card: var(--aqua-25);
   --primary: var(--lightgreen-50);
   --primary-text: var(--white);
   --primary-faint: color-mix(in srgb, var(--primary) 30%, transparent);
-  --secondary: var(--aqua-35);
+  --secondary: var(--aqua-50);
   --secondary-text: var(--lightgreen-100);
   --secondary-faint: color-mix(in srgb, var(--secondary) 30%, transparent);
   --gradient: radial-gradient(

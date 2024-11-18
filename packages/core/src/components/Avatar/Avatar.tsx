@@ -27,19 +27,7 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
       ...divProps
     } = props;
 
-    const getSize = () => {
-      switch (size) {
-        case "small":
-          return 16;
-          break;
-        case "large":
-          return 40;
-          break;
-        default:
-          return 24;
-          break;
-      }
-    };
+    
 
     return (
       <div

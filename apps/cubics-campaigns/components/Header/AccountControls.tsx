@@ -10,14 +10,14 @@ export default function AccountControls() {
   const { data: session } = useSession();
   const { open, handleClose, handleToggle, handleOpen } = useDisclosure();
   const anchorEl = useRef<HTMLButtonElement>(null);
-  // if (!session) {
-  //   return (
-  //     <div>
-  //       <Link href="/auth/register">Register</Link>
-  //       <Link href="/auth/login">Login</Link>
-  //     </div>
-  //   );
-  // }
+  if (!session) {
+    return (
+      <div>
+        <Link href="/auth/register">Register</Link>
+        <Link href="/auth/login">Login</Link>
+      </div>
+    );
+  }
   return (
     <>
       <IconButton
@@ -27,11 +27,19 @@ export default function AccountControls() {
         onClick={handleToggle}
       >
         <Avatar
-          // image={session.user.image}
-          displayName={"Chekcit Pinga"}
+          image={session.user.image}
+          displayName={
+            session.user.name ?? session.user.email ?? session.user.id ?? "AN"
+          }
         />
       </IconButton>
-      <Popover open={open} onClose={handleClose} anchorEl={anchorEl}>
+      <Popover
+        open={open}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        transformOrigin={{ vertical: "top", horizontal: "center" }}
+        onClose={handleClose}
+        anchorEl={anchorEl}
+      >
         <Button onClick={handleClose}>Close</Button>
         <Button type="submit" onClick={handleSignOut}>
           Logout

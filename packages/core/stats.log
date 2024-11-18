@@ -9146,3 +9146,1375 @@ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
 /src/index.ts
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.314 KB
+code reduction: 12.04 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.337 KB
+code reduction: 12.07 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.045 KB
+code reduction: 11.72 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.068 KB
+code reduction: 11.75 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.074 KB
+code reduction: 11.76 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.102 KB
+code reduction: 11.79 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.102 KB
+code reduction: 11.79 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.129 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.129 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.129 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.567 KB
+original size:  75.498 KB
+code reduction: 11.83 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+████████████████████████████████░░░░░░░░░░░░░░░░░░ 65.92 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.22 % (2.144 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.75 % (1.833 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.56 % (1.703 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.26 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.86 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.72 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.36 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.31 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.1 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.1 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.73 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.65 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.63 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.6 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.6 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.129 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.246 KB
+original size:  75.129 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.24 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.28 % (1.512 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
+-----------------------------
+Rollup File Analysis
+-----------------------------
+bundle size:    66.24 KB
+original size:  75.123 KB
+code reduction: 11.82 %
+module count:   45
+
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js
+█████████████████████████████████░░░░░░░░░░░░░░░░░ 66.25 % (43.881 KB)
+/src/components/List/ListItem.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 3.24 % (2.144 KB)
+/src/components/Form/FormInput.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.57 % (1.703 KB)
+/src/components/ColorScheme/ColorScheme.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.506 KB)
+/src/components/DragNDrop/DragNDrop.tsx
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 2.27 % (1.502 KB)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.87 % (1.238 KB)
+/src/components/SidebarViewer/Sidebar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.73 % (1.144 KB)
+/src/components/Button/Button.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.37 % (905 Bytes)
+/src/components/Input/Input.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.32 % (873 Bytes)
+/src/components/LoadingIcon/LoadingIcon.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (734 Bytes)
+/src/components/Avatar/Avatar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.11 % (733 Bytes)
+/src/components/Accordion/Accordion.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 1.08 % (718 Bytes)
+/src/components/Divider/Divider.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.98 % (651 Bytes)
+/src/components/Hamburger/Hamburger.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.93 % (617 Bytes)
+/src/components/App/AppBar/Appbar.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.8 % (530 Bytes)
+/src/components/SidebarViewer/Viewer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.74 % (487 Bytes)
+/src/components/Button/Button.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.66 % (435 Bytes)
+/src/components/Select/Select.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.64 % (421 Bytes)
+/src/components/SidebarViewer/SidebarViewer.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.62 % (413 Bytes)
+/src/components/IconButton/IconButton.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.61 % (401 Bytes)
+/src/components/List/List.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (360 Bytes)
+/src/components/Form/FormContainer.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (358 Bytes)
+/src/utils/hooks/useDisclosure.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.54 % (357 Bytes)
+/src/components/Input/InputLabel.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.53 % (353 Bytes)
+/src/components/List/List.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.5 % (331 Bytes)
+/src/components/Form/FormControl.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.46 % (305 Bytes)
+/src/components/Form/FormMessage.tsx
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.45 % (299 Bytes)
+/src/components/Input/Input.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.42 % (279 Bytes)
+/src/utils/helpers/mergeRefs.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.41 % (270 Bytes)
+/src/components/IconButton/IconButton.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.4 % (267 Bytes)
+/src/components/Accordion/Accordion.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.38 % (255 Bytes)
+/src/components/LoadingIcon/LoadingIcon.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.36 % (241 Bytes)
+/src/components/Divider/Divider.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.29 % (195 Bytes)
+/src/components/Avatar/Avatar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.26 % (173 Bytes)
+/src/components/Form/Form.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.25 % (166 Bytes)
+/src/components/App/AppBar/Appbar.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.24 % (159 Bytes)
+/src/components/DragNDrop/DragNDrop.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.18 % (117 Bytes)
+/src/components/Hamburger/Hamburger.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.16 % (109 Bytes)
+/src/components/Select/Select.module.scss
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.08 % (54 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-es-import
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.07 % (47 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (40 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/cjs/react-jsx-runtime.development.js?commonjs-exports
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.06 % (37 Bytes)
+ C:/Workholder/StudioCubics/cubics-monorepo/node_modules/react/jsx-runtime.js?commonjs-module
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0.05 % (31 Bytes)
+/src/index.ts
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0 % (0 Byte)
