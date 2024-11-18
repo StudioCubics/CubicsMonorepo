@@ -4,7 +4,7 @@ import { hash } from "bcryptjs";
 import { v5 as uuid } from "uuid";
 import prisma from "@/prisma/client";
 import { actionError, registerSchema } from "../zod";
-import { signIn, signOut } from "@/auth";
+import { signOut } from "@/auth";
 
 export async function register(formData: FormData) {
   const { data, error } = registerSchema.safeParse(

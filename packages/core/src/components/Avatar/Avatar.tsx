@@ -27,8 +27,6 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
       ...divProps
     } = props;
 
-    
-
     return (
       <div
         ref={ref}

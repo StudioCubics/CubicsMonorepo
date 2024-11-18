@@ -3,8 +3,8 @@ import { SignJWT } from "jose";
 
 export default {
   callbacks: {
+    // jwt is required as credentials provider supports only jwt
     jwt({ token, user, account }) {
-      // jwt is required as credentials provider supports only jwt
       // returned token is received by jwt's encode in jwt.config.ts
       if (account?.provider === "credentials") {
         token.credentials = true;
@@ -14,9 +14,9 @@ export default {
       return token;
     },
 
+    // This will be used by other providers directly no need to deal with jwt.
     async session({ session, user }) {
-      // This will be used by other providers directly no need to deal with jwt.
-      console.log("user in session", user);
+      // console.log("user in session", user);
 
       //   if (user?.emailVerified)
       session.user.verified = Boolean(user.emailVerified);
