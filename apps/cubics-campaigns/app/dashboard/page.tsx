@@ -1,4 +1,3 @@
-import { auth } from "@/auth";
 import { IconButton } from "@studiocubics/core";
 
 export default async function DashboardPage() {

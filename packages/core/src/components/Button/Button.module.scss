@@ -28,14 +28,14 @@
 
 .contained {
   background: var(--primary);
-  color: var(--primary-text);
+  color: var(--white);
   &:hover:not([disabled]) {
     background: var(--primary-faint);
-    outline: 1px solid var(--primary);
+    // outline: 1px solid var(--primary);
   }
-  &:active:not([disabled]) {
-    outline: 1px solid var(--primary-faint);
-  }
+  // &:active:not([disabled]) {
+  //   outline: 1px solid var(--primary-faint);
+  // }
 }
 .outline {
   background: none;

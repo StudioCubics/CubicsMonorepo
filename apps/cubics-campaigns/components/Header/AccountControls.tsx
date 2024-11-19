@@ -7,32 +7,35 @@ import Link from "next/link";
 import Popover from "../Popover/Popover";
 
 export default function AccountControls() {
-  const { data: session } = useSession();
-  const { open, handleClose, handleToggle, handleOpen } = useDisclosure();
+  const { data: session, status } = useSession();
+  const { open, handleClose, handleOpen } = useDisclosure();
   const anchorEl = useRef<HTMLButtonElement>(null);
-  if (!session) {
+  if (status == "unauthenticated")
     return (
       <div>
         <Link href="/auth/register">Register</Link>
         <Link href="/auth/login">Login</Link>
       </div>
     );
-  }
   return (
     <>
       <IconButton
         variant="ghost"
         id="button-check"
         ref={anchorEl}
-        onClick={handleToggle}
+        onClick={handleOpen}
       >
         <Avatar
-          image={session.user.image}
+          image={session?.user.image}
           displayName={
-            session.user.name ?? session.user.email ?? session.user.id ?? "AN"
+            session?.user.name ??
+            session?.user.email ??
+            session?.user.id ??
+            "AN"
           }
         />
       </IconButton>
+
       <Popover
         open={open}
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}

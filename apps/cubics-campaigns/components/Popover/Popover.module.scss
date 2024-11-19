@@ -1,3 +1,10 @@
+.container[open] {
+  & .content {
+    animation: fade-in 0.3s var(--transition-tf);
+    transform-origin: 50% 0%;
+  }
+}
+
 .container {
   position: fixed;
   top: 0;
@@ -9,7 +16,32 @@
   isolation: isolate;
   background: none;
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    // display: none;
+  }
 
+  100% {
+    opacity: 1;
+    visibility: visible;
+    // display: block;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    visibility: hidden;
+    // display: none;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: visible;
+    // display: block;
+  }
+}
 .backdrop {
   background: none;
   // backdrop-filter: blur(2px);
@@ -26,4 +58,5 @@
   padding: 1rem;
   border-radius: var(--br);
   background-color: var(--bg-card);
+  animation: fade-out 0.3s var(--transition-tf);
 }
