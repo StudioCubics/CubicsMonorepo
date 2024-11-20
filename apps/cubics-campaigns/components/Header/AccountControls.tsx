@@ -1,16 +1,26 @@
 "use client";
 import { useRef } from "react";
 import { handleSignOut } from "@/lib/authjs/actions";
-import { Avatar, Button, IconButton, useDisclosure } from "@studiocubics/core";
+import {
+  Avatar,
+  Button,
+  IconButton,
+  Popover,
+  useDisclosure,
+} from "@studiocubics/core";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
-import Popover from "../Popover/Popover";
+import { Session } from "next-auth";
+import { MenuAltLeft } from "@studiocubics/icons";
 
-export default function AccountControls() {
-  const { data: session, status } = useSession();
+export default function AccountControls({
+  session,
+}: {
+  session: Session | null;
+}) {
   const { open, handleClose, handleOpen } = useDisclosure();
   const anchorEl = useRef<HTMLButtonElement>(null);
-  if (status == "unauthenticated")
+  if (!session)
     return (
       <div>
         <Link href="/auth/register">Register</Link>
@@ -35,6 +45,7 @@ export default function AccountControls() {
           }
         />
       </IconButton>
+
 
       <Popover
         open={open}

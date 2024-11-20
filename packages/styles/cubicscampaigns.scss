@@ -95,6 +95,7 @@ h3 {
 body {
   color: var(--primary-text);
   background: var(--bg);
+  transition: all 0.3s var(--transition-tf);
 }
 body,
 h1,

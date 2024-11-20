@@ -1,12 +1,13 @@
-import { ComponentPropsWithoutRef, forwardRef } from "react";
+import { ComponentPropsWithoutRef, ElementType, forwardRef } from "react";
 import styles from "./Avatar.module.scss";
 
-export interface AvatarProps extends ComponentPropsWithoutRef<"div"> {
+export type AvatarProps = {
   displayName: string;
   image?: string | null;
   size?: "small" | "medium" | "large";
-  button?: boolean;
-}
+  component?: ElementType;
+} & ComponentPropsWithoutRef<"div">;
+
 function getInitials(name: string) {
   var words = name.split(" ");
   var initials = "";
@@ -21,14 +22,14 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
       children,
       displayName,
       image,
-      button,
+      component: Component = "div",
       size = "medium",
       className = "",
       ...divProps
     } = props;
 
     return (
-      <div
+      <Component
         ref={ref}
         className={`${className} ${styles.container} ${styles[size]}`}
         {...divProps}
@@ -38,7 +39,7 @@ const Avatar = forwardRef<HTMLDivElement, AvatarProps>(
         ) : (
           <p>{getInitials(displayName)}</p>
         )}
-      </div>
+      </Component>
     );
   }
 );

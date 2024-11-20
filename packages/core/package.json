@@ -33,6 +33,7 @@
     "@studiocubics/rollup-config": "*",
     "@studiocubics/typescript-config": "*",
     "@studiocubics/styles": "*",
+    "@studiocubics/icons": "*",
     "sass": "^1.79.5",
     "typescript": "^5.3.3"
   },

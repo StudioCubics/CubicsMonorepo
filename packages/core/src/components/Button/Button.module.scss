@@ -6,7 +6,7 @@
   min-width: fit-content;
   font-weight: bolder;
   font-size: var(--fs-p);
-  transition: all 0.3s ease;
+  transition: all 0.3s var(--transition-tf);
   scale: 1;
   border: none;
   border-radius: var(--br);
@@ -58,7 +58,7 @@
   color: var(--danger);
   &:hover:not([disabled]) {
     background: color-mix(in srgb, var(--danger) 50%, transparent);
-    color: var(--primary-text);
+    color: var(--white);
   }
 }
 

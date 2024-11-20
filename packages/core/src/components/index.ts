@@ -25,3 +25,5 @@ export { default as Divider } from "./Divider/Divider";
 export { default as DragNDrop } from "./DragNDrop/DragNDrop";
 
 export { default as LoadingIcon } from "./LoadingIcon/LoadingIcon";
+
+export { default as Popover } from "./Popover/Popover";

@@ -10,6 +10,7 @@ import IconButton from "../IconButton/IconButton";
 import styles from "./SidebarViewer.module.scss";
 import List from "../List/List";
 import ListItem, { ListItemProps } from "../List/ListItem";
+import { MenuAltLeft } from "@studiocubics/icons";
 
 export type SidebarProps = {
   sidebarLinks: ListItemProps[];
@@ -54,7 +55,7 @@ const SidebarInner: ForwardRefRenderFunction<HTMLDivElement, SidebarProps> = (
           className={styles.sidebar_trigger}
           onClick={handleToggle}
         >
-          open icon
+          <MenuAltLeft />
         </IconButton>
       )}
       {/* {open && children} */}

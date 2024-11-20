@@ -2,19 +2,19 @@
 import {
   createContext,
   type ReactNode,
-  useCallback,
   useContext,
   useEffect,
   useState,
 } from "react";
 
 export type ColorSchemeProps = {
-  defaultScheme?: "dark" | "light" | "system";
   children: Readonly<ReactNode>;
 };
 
+type CurrentScheme = "dark" | "light";
+
 export type ColorSchemeContextProps = {
-  currentScheme: "dark" | "light";
+  currentScheme?: CurrentScheme;
   setDarkMode(): void;
   setLightMode(): void;
 };
@@ -27,43 +27,31 @@ export const useColorScheme = () => {
   }
   return c;
 };
-export default function ColorScheme({
-  defaultScheme = "system",
-  children,
-}: ColorSchemeProps) {
-  const [currentScheme, setCurrentScheme] =
-    useState<ColorSchemeContextProps["currentScheme"]>("light");
+
+export default function ColorScheme({ children }: ColorSchemeProps) {
+  const [currentScheme, setCurrentScheme] = useState<CurrentScheme>();
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      if (window.matchMedia("(prefers-color-scheme: dark)")) {
-        setDarkMode();
-      } else {
-        setLightMode();
-      }
+    if (typeof window === "undefined") return;
+    let scheme = window.localStorage.getItem("currentScheme") as CurrentScheme;
+    if (scheme == "dark") {
+      document.body.classList.add("dark");
+      setCurrentScheme("dark");
+    } else {
+      document.body.classList.remove("dark");
+      setCurrentScheme("light");
     }
   }, []);
-
-  useEffect(() => {
-    if (defaultScheme == "light") return;
-    if (defaultScheme == "dark") {
-      setDarkMode();
-    } else if (typeof window != "undefined") {
-      window.matchMedia("(prefers-color-scheme: dark)")
-        ? setDarkMode()
-        : setLightMode();
-    }
-  }, [defaultScheme]);
-
-  const setDarkMode = useCallback(() => {
-    setCurrentScheme("dark");
+  function setDarkMode() {
     document.body.classList.add("dark");
-  }, []);
-
-  const setLightMode = useCallback(() => {
-    setCurrentScheme("light");
+    localStorage.setItem("currentScheme", "dark");
+    setCurrentScheme("dark");
+  }
+  function setLightMode() {
     document.body.classList.remove("dark");
-  }, []);
+    localStorage.setItem("currentScheme", "light");
+    setCurrentScheme("light");
+  }
 
   return (
     <ColorSchemeContext.Provider

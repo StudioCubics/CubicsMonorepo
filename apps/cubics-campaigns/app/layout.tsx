@@ -32,16 +32,16 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body
-        className={`${fontFamilyHeading.variable} ${fontFamilyBody.variable}`}
-      >
-        <ColorScheme>
+      <ColorScheme>
+        <body
+          className={`${fontFamilyHeading.variable} ${fontFamilyBody.variable}`}
+        >
           <SessionProvider>
             <Header />
             {children}
           </SessionProvider>
-        </ColorScheme>
-      </body>
+        </body>
+      </ColorScheme>
     </html>
   );
 }

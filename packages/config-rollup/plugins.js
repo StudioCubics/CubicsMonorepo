@@ -37,7 +37,11 @@ const sassPlugin = [
     extract: true,
     sourceMap: false,
     minimize: true,
-    use: ["sass"],
+    use: {
+      sass: {
+        silenceDeprecations: ["legacy-js-api", "import"],
+      },
+    },
     config: {
       path: "postcss.config.js",
     },
